@@ -2,14 +2,14 @@
 # SPDX-License-Identifier: MPL-2.0
 
 terraform {
-  /* Uncomment this block to use Terraform Cloud for this tutorial
+ # Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-      organization = "organization-name"
+      organization = "example-org-a0d867"
       workspaces {
         name = "learn-terraform-import"
       }
   }
-  */
+  
 
   required_providers {
     docker = {
