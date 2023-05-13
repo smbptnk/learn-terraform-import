@@ -14,7 +14,7 @@ resource "docker_container" "web" {
     name              = "hashicorp-learn"
 
     ports {
-        external = 8081
+        external = 8082
         internal = 80
         ip       = "0.0.0.0"
         protocol = "tcp"
